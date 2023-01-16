@@ -1,0 +1,296 @@
+/*GLobal CSS*/
+body {
+font-family: 'Yeseva One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Gentium Basic', serif;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Yeseva One', cursive;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+.text-center {
+text-align: center;
+}
+.text-white {
+    color: #f2f3f1;
+}
+/*GLobal CSS*/
+/*Banner Section CSS*/
+ .banner{
+    background: url(../image/bg01.png);
+ }
+ .topsection{ background: url(../image/topbar-bg.png);  }
+ .nav {
+    display: flex;
+    list-style: none;
+    margin: 30px 0px;
+    float: right;
+}
+.nav-link {
+    padding: 8px 19px;
+    color: #fff;
+    font-weight: 700;
+}
+ .nav .nav-link {}
+
+
+ .social-icon{
+    margin-top: 37px;
+    padding: 0 3px;
+    font-size: 17px;
+    color: #ffd149;
+}
+.banner .banner-heroarea{}
+.banner h1{
+    font-size: 80px;
+    margin-top: 27px;
+    margin-bottom: 0;
+    padding: 45px;
+    letter-spacing: 1px;
+}
+.divider-img{
+    margin-bottom: 17px;
+    height: 40px;
+}
+.btn{}
+.btn.btn-cta{
+    margin: 0 25px;
+    margin-bottom: 100px;
+    padding: 8px 38px;
+    opacity: 0.7;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    background: black;
+    transition: 0.3s;
+}
+.btn.btn-ghost{
+    margin: 0 25px;
+    margin-bottom: 100px;
+    padding: 8px 38px;
+    opacity: 0.7;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    background: black;
+    transition: 0.3s;
+}
+.btn.btn-cta:hover{
+    opacity: .9;
+}
+.btn.btn-ghost:hover{
+    opacity: .9;
+}
+ /*Banner Section CSS*/
+
+ /*Cook Section CSS*/
+ .cook {
+    background: url(../image/bg02.png);
+}
+ .cook-heroarea{
+    text-align: center;
+    padding: 0px;
+    margin-top: 12%;
+}
+.cook p{line-height: 1.9;}
+ .cook h2{
+    color: #cc9900;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+ .cook .divider-orange{
+    margin-bottom: 50px;
+}
+ .cook .cooker-img{
+    width: 29%;
+    margin: 40px 0;
+}
+ .cook .dish{
+            margin-top:40px;
+            /* margin: 40px ; */
+            padding: 0px 25px;
+            width: 100%;
+            }
+ /*Cook Section CSS*/
+
+/*About Section*/
+.about{
+    background: url(../image/bg03.png);
+    background-position: center;
+    background-size: cover;
+}
+.about .about-heroarea{
+    background: url(../image/layer.png);
+    float: right;
+    width: 37%;
+    height: 87%;
+    padding: 25px 23px;
+    background-position: center;
+    margin: 50px;
+    border-radius: 10px;
+}
+.about h2{
+    color: #fff;
+    font-size: 35px;
+    margin: 27px;
+}
+.about .about-divider{
+    margin-bottom: 13px;
+}
+.about p{
+    color: #fff;
+}
+.about .about-image{
+    padding: 0 4px;
+    height: 19%;
+    margin-top: 10px;
+} 
+/*About Section*/
+
+/*Menu Section CSS*/
+.menu{
+    background: url(../image/bg04.png);
+    background-size: cover;
+}
+.menu .menu-item{
+    margin: 30px;
+}
+.menu h1{color: #cc9900;font-size: 37px;margin: 25px;text-align: center;}
+.menu-divider{
+    margin-bottom: 30px;
+    width: 32%;
+    margin-left: 36%;
+}
+.menu h4{
+    color: #cc9900;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    margin: 10px;
+    font-style: italic;
+}
+.menu h4 .rate{
+    float: right;
+}
+
+.menu .menu-text {
+    color: #8e8a8a;
+    font-size: 16px;
+    margin: 13px;
+    border-top: 1px dashed #cc9900;
+}
+/*Menu Section CSS*/
+
+/*Review Section CSS*/
+.review{
+    background: url(../image/bg05.png);
+    background-size: cover;
+    height: 540px;
+}
+.review-heroarea{background: url(../image/layer.png);background-size: cover;background-position: center;width: 60%;position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);padding: 60px 20px;font-weight: 700;margin-top: 4%;border-radius: 10px;}
+.review h2{
+    color: #fff;
+    margin: 35px;
+}
+.review .review-divider{
+    margin-bottom: 20px;
+}
+.review p{
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Review Section CSS*/
+
+/*Booking Section CSS*/
+.book{background: url(../image/bg02.png);background-size: cover;}
+.book .book-img {
+    height: 60%;
+    margin: 0 19px;
+    margin-top: 70%;
+}
+.book .text-area{}
+.book h2{
+    color: #cc9900;
+    margin-top: 17%;
+    margin-bottom: 25px;
+}
+.book p{
+    color: #4c4c4c;
+    font-size: 15px;
+    margin: 30px;
+    line-height: 1.8;
+}
+.form{
+    margin: 50px;
+}
+.form .level{
+    width: 100%;
+    display: block;
+    color: #cc9900;
+    font-size: 19px;
+    margin-left: -36px;
+    margin: 2px;
+}
+.form .text-type{
+    padding: 8px;
+    border: solid 1px #ffa50f;
+    margin: 0 0px;
+}
+.form .text-date {
+    padding: 10px 15px;
+    color: #8c8585;
+    border: 1px solid #ffa50f;
+}
+.form .select-type{
+    padding: 11px 64px;
+    color: #6b6969;
+    border: solid 1px #ffa50f;
+}
+.book .submit-btn{}
+.book .btn{
+    /* border: solid; */
+    margin: 30px;
+    padding: 8px 42px;
+    margin-left: 83%;
+    color: #fff;
+    background: #c9a131;
+    font-size: 17px;
+}
+.book .btn:hover{
+    background: #a0790c;
+}
+
+/*Booking Section CSS*/
+
+/*Contact Section CSS*/
+.contact{
+    background: #191919;
+}
+.contact-control{}
+.contact p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.contact h2{
+    color: #fff;
+    margin: 25px;
+    font-size: 26px;
+}
+.contact .contact-divider{
+    width: 40%;
+    margin-bottom: 33px;
+}
+.contact .image-card{
+    margin: 30px 0;
+}
+.contact .social-icon{}
+.contact .social-icon .fa{}
+
+/*Contact Section CSS*/
+
+   
